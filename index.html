@@ -9,56 +9,60 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <div class="content">
+        <h1 class="outline">Corpo</h1>
         <header>
+            <h1 class="outline">Menu de navegação</h1>
             <div class="header">
                 <a href="#home" class="header_item">Home</a>
                 <a href="#about" class="header_item">About</a>
                 <a href="#contact" class="header_item">Contact</a>
             </div>
         </header>
-        <input type="checkbox" id="check">
-        <label id="icone_hamburguer" for="check"><i class="fa fa-bars"></i></label>
-        <div class="barra_menu">
-            <nav class= "nav_bar">
-                
-                <div class="icones">    
-                    <ul>
-                        <li><a href="#home"><i class="fa fa-home"></i></a></li>
-                        <li><a href="#about"><i class="fa fa-user"></i></a></li>
-                        <li><a href="#contact"><i class="fa fa-envelope"></i></a></li>
-                    </ul>
-                </div>  
-                <div class="icones icones_sociais">
-                    <ul> 
-                        <li><a target="_blank" href="https://www.behance.net/thiareis"><i class="fa fa-behance"></i></a></li>
-                        <li><a target="_blank" href="https://github.com/alcantara2509"><i class="fa fa-github"></i></a></li>
-                        <li><a target="_blank" href="https://www.linkedin.com/in/thiareis/"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
+        <aside>
+            <h1 class="outline">Menu de navegação lateral</h1>
+            <div>
+            <input type="checkbox" id="check">
+            <label id="icone_hamburguer" for="check"><p class="fa fa-bars"></p><h1 class="outline">Menu Haburger</h1></label>
+            </div>
+            <nav class="barra_menu">
+                <div class= "nav_bar">
+                    
+                    <div class="icones">    
+                        <ul>
+                            <li><a href="#home"><p class="fa fa-home"></p></a></li>
+                            <li><a href="#about"><p class="fa fa-user"></p></a></li>
+                            <li><a href="#contact"><p class="fa fa-envelope"></p></a></li>
+                        </ul>
+                    </div>  
+                    <div class="icones icones_sociais">
+                        <ul> 
+                            <li><a target="_blank" href="https://www.behance.net/thiareis"><p class="fa fa-behance"></p></a></li>
+                            <li><a target="_blank" href="https://github.com/alcantara2509"><p class="fa fa-github"></p></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/thiareis/"><p class="fa fa-linkedin"></p></a></li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
-        </div>
-        
-        <div class="home" id="home">                   
+        </aside>
+        <section class="home" id="home">
+            <h1 class="outline">Banner</h1>                   
             <h1 class="h1_banner">hello<span class="virgula">,</span><br>i am<br>thiago</h1>
             <div class="h2_banner">
                 <h2>software development <br> student at </span><strong><a href="https://www.betrybe.com/" target="_blank">TRYBE</a></strong></h2>
             </div>
-        </div>
-
-        <div class="about" id="about">
+        </section>
+        <section class="about" id="about">
+            <h1 class="outline">about me</h1>
             <h1 class="t_about">about me</h1>
             <p class="p_about">
                 Software development student, freelance programmer. Brazilian, 26 years old, married. I'm dedicated,<br> 
                 proactive and a fast learner. Always looking for holistic and embracing solutions for daily challenges.<br>
                 Based in <strong> Brazil, Belo Horizonte </strong> city.
             </p>
-
-        </div>
-        <div class="contact" id="contact">
+        </section>
+        <section class="contact" id="contact">
             <h1 class="t_contact">contact me</h1>
-            <div class="form">
-                <form action="">
+            <form class="form">
                     <ul>
                         <li>
                             <input class="contact_name" type="text" placeholder="name" id="nomeid">
@@ -76,13 +80,12 @@
                             <input class="contact_submit" type="submit" placeholder="submit" onclick="Submit();">
                         </li>
                     </ul>
-                </form>
-            </div>
-        </div>
+                
+            </form>
+        </section>
         <footer>
             <p>&copy;Thiago Pimenta Alcântara dos Reis</p>
         </footer>
-    </div>
         <script>
             function Submit() {
             
