@@ -29,7 +29,11 @@ ul {
     padding: 0px!important;
     list-style-type: none;
 }
-.header{
+ol {
+    padding: 0px!important;
+    list-style-type: none;
+}
+#cabecalho{
     float: right;
     padding-top: 25px;
     padding-right: 65px;
@@ -69,7 +73,6 @@ ul {
     width: 70px;
     transition: all .2s linear;
     position: fixed;
-    
 }
 .nav_bar{
     margin-top: 40px;
@@ -80,16 +83,12 @@ ul {
     padding-top: 15px;
 }
 .icones ul li{
-    display: inline-block;
     padding-top: 60px;
     text-align: center;
-    
 }
 .icones ul li a{
     color: rgb(160, 160, 160);
-    font-size: 20px;
-   
-    
+    font-size: 20px;   
 } 
 .icones ul li a:hover{
     color: rgb(78, 78, 78);
@@ -176,7 +175,7 @@ h2{
     box-sizing: border-box;
     text-align: center;
 }
-.contact_name{
+.lado-esquerdo{
     padding-left: 10px;
     width: 47%;
     height: 45px;
@@ -184,7 +183,7 @@ h2{
     border: none;
     float: left;
 }
-.contact_email{
+.lado-direito{
     padding-left: 10px;
     width: 47%;
     height: 45px;
@@ -225,7 +224,7 @@ h2{
 .contact_submit:hover{
     font-weight: 800;
 }
-footer{
+#rodape{
     text-align: center;
     color: #4b4b4b;
     font-family: Helvetica, sans-serif;
